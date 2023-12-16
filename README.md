@@ -8,16 +8,12 @@ This project focuses on analyzing these datasets, specifically, the detailed CSV
 
 ## Contents
 
-- `Data/`: Placeholder for data files (if applicable).
+- `Data/`: Data files are added 
 - `README.md`: This file.
-- `LICENSE`: Project license details.
 - `PDF`: A pdf file added
+- `Code`: All code files added
+- `Papers`: All used papers added 
 
-## Getting Started
-
-1. Clone this repository: `git clone https://github.com/your-username/your-project.git`
-2. Install the required dependencies (if any): `pip install -r requirements.txt`
-3. Explore the `Notebooks/` directory for code examples and explanations.
 
 ## Dependencies
 
@@ -25,16 +21,14 @@ This project focuses on analyzing these datasets, specifically, the detailed CSV
 - c++
 
 ## Usage
--Download the date either from CERN open data portal of from here
--Download the .c files on a linux system and sue root to run the files to get the desired Histograms
+-Download the date either from CERN open data portal or from here
+-Download the .c files on a Linux system and use root to run the files to get the desired Histograms
 
 ## Contributing
 
-Macari Magdy
+[Macari Magdy](https://github.com/Macarius22)
 [Dr Sergey Dmitrievsky](https://github.com/dmitr25).
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
