@@ -4,11 +4,10 @@ This repository contains the code and documentation for the project "Analysis an
 
 ## Project Description
 
-This project aims to explore and analyze alternative ΛCDM models in cosmology and compare them against cosmological observations. It covers topics such as General Relativity, Friedmann Equations, Maximum Likelihood Estimation, Bayesian Statistics, and Markov Chain Monte Carlo (MCMC) techniques.
+This project focuses on analyzing these datasets, specifically, the detailed CSV files containing information on registered neutrino events. To delve into the intricacies of these events, we delve into the robust capabilities of the C++ programming language. By crafting customized programs, we will extract and analyze crucial features of neutrino event topology, uncovering hidden patterns and relationships within the data.
 
 ## Contents
 
-- `Notebooks/`: Contains Jupyter notebooks with code and explanations.
 - `Data/`: Placeholder for data files (if applicable).
 - `README.md`: This file.
 - `LICENSE`: Project license details.
@@ -26,14 +25,13 @@ This project aims to explore and analyze alternative ΛCDM models in cosmology a
 - c++
 
 ## Usage
-
-- Run the Jupyter notebooks in the `Notebooks/` directory to see examples and results.
+-Download the date either from CERN open data portal of from here
+-Download the .c files on a linux system and sue root to run the files to get the desired Histograms
 
 ## Contributing
 
 Macari Magdy
-Dr Sergey Dmitrievsky
-
+[Dr Sergey Dmitrievsky](https://github.com/dmitr25).
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
