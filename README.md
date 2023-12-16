@@ -26,8 +26,8 @@ This project focuses on analyzing these datasets, specifically, the detailed CSV
 
 ## Contributing
 
-[Macari Magdy](https://github.com/Macarius22)
-[Dr Sergey Dmitrievsky](https://github.com/dmitr25).
+- [Macari Magdy](https://github.com/Macarius22)
+-[Dr Sergey Dmitrievsky](https://github.com/dmitr25).
 
 
 ## Contact
