@@ -1,8 +1,7 @@
 # Jinr-Internship-project
 
-# Project Title
+# Analysis and interactive visualization of neutrino event topologies registered in the OPERA experiment.
 
-Analysis and interactive visualization of neutrino event topologies registered in the OPERA experiment.
 
 ## Table of Contents
 
