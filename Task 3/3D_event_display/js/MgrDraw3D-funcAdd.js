@@ -336,17 +336,14 @@ dm3D.drawVertices = function() {
     const vertexPoint = new THREE.Mesh( dm3D.vertexGeometry(), dm3D.vertexMaterial() );
 
     const vertRealPos = evVertices[iv].pos();
-
-    vertexPoint.position.x = 0; // Relative vertex position
-    vertexPoint.position.y = 0; // with respect to
-    vertexPoint.position.z = 0; // the primary interaction vertex!
-
+  
+    vertexPoint.position.x = vertRealPos[0]-primVertRealPos[0]; // Relative vertex position
+    vertexPoint.position.y = vertRealPos[1]-primVertRealPos[1] ; // with respect to
+    vertexPoint.position.z =  vertRealPos[2]-primVertRealPos[2]; // the primary interaction vertex!
     dm3D.groupOfVertices().add(vertexPoint);
-
   }
 
   dm3D.scene().add(dm3D.groupOfVertices());
-
 };
 //------------------------------------------------------------------------------
 
@@ -368,10 +365,8 @@ dm3D.drawTracks = function() {
     const trPos2 = [0, 0, 0]; // Just a 1d array initialization
 
     for (let ip = 0; ip < 3; ip++) {
-
-      trPos1[ip] = 0; // Relative track positions with respect to
-      trPos2[ip] = 0; // the primary interaction vertex!
-
+      trPos1[ip] = iTrack.pos1()[ip] - primVertRealPos[ip]; // Relative track positions with respect to
+      trPos2[ip] = iTrack.pos2()[ip] - primVertRealPos[ip]; // the primary interaction vertex!
     }
 
     const trPars = dm3D.trackLinePars()[iTrack.partId()];
